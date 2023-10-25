@@ -3,7 +3,6 @@ import React, { useState, useCallback, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
 import '../assets/scss/MainSlider/_mainSlider.scss'
-import HoverAnimation from '../components/HoverAnimation/HoverAnimation';
 
 import bg1 from '../assets/img/bg1.png';
 import bg2 from '../assets/img/bg2.png';
@@ -203,7 +202,7 @@ const Welcome = () => {
                         streamlining the dining experience. It simplifies the process of securing a table, ensuring a
                         convenient and hassle-free dining experience for patrons.
                     </div>    
-                    <HoverAnimation currentColor={isLoggedIn} />
+                    {/* <HoverAnimation currentColor={isLoggedIn} /> */}
             </div>
         </div>
     )
